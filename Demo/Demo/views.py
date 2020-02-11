@@ -42,4 +42,5 @@ def textdemo(request,city,year):
 def text(request,num2,num1):
     #num1 num2 属于位置参数，只是占位而已
     result = "%s,%s" %(num1,num2)
+    print(result)
     return HttpResponse(result)
